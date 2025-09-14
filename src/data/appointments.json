@@ -1,0 +1,44 @@
+[
+  {
+    "id": "A001",
+    "patientId": "P001",
+    "doctorId": "D001",
+    "date": "2024-01-25",
+    "time": "10:00",
+    "status": "scheduled",
+    "type": "video",
+    "symptoms": ["Fever", "Cough", "Body ache"],
+    "notes": "Patient reports fever for 3 days with dry cough",
+    "prescription": "RX001",
+    "followUp": "2024-02-01",
+    "createdAt": "2024-01-20T10:30:00Z"
+  },
+  {
+    "id": "A002",
+    "patientId": "P002",
+    "doctorId": "D002",
+    "date": "2024-01-24",
+    "time": "14:30",
+    "status": "completed",
+    "type": "video",
+    "symptoms": ["Chest pain", "Shortness of breath"],
+    "notes": "Routine cardiac checkup, ECG normal",
+    "prescription": "RX002",
+    "followUp": "2024-03-01",
+    "createdAt": "2024-01-18T09:15:00Z"
+  },
+  {
+    "id": "A003",
+    "patientId": "P003",
+    "doctorId": "D003",
+    "date": "2024-01-26",
+    "time": "11:30",
+    "status": "scheduled",
+    "type": "video",
+    "symptoms": ["Wheezing", "Difficulty breathing"],
+    "notes": "Asthma follow-up appointment",
+    "prescription": null,
+    "followUp": null,
+    "createdAt": "2024-01-22T16:45:00Z"
+  }
+]

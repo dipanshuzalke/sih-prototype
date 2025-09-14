@@ -1,0 +1,93 @@
+[
+  {
+    "id": "PH001",
+    "name": "Khanna Medical Store",
+    "nameHi": "खन्ना मेडिकल स्टोर",
+    "namePa": "ਖੰਨਾ ਮੈਡੀਕਲ ਸਟੋਰ",
+    "address": "Main Market, Khanna, Punjab",
+    "phone": "+91 9876543230",
+    "email": "khanna.medical@gmail.com",
+    "license": "PB-KHA-2019-001",
+    "owner": "Suresh Kumar",
+    "medicines": [
+      {
+        "id": "M001",
+        "name": "Paracetamol 500mg",
+        "nameHi": "पैरासिटामोल 500mg",
+        "namePa": "ਪੈਰਾਸੀਟਾਮੋਲ 500mg",
+        "category": "Pain Relief",
+        "manufacturer": "Sun Pharma",
+        "batchNo": "PC24001",
+        "expiryDate": "2025-12-31",
+        "stock": 500,
+        "price": 25.00,
+        "available": true
+      },
+      {
+        "id": "M002",
+        "name": "Azithromycin 500mg",
+        "nameHi": "अजीथ्रोमाइसिन 500mg",
+        "namePa": "ਅਜ਼ੀਥ੍ਰੋਮਾਈਸਿਨ 500mg",
+        "category": "Antibiotic",
+        "manufacturer": "Cipla",
+        "batchNo": "AZ24002",
+        "expiryDate": "2025-08-31",
+        "stock": 150,
+        "price": 120.00,
+        "available": true
+      },
+      {
+        "id": "M003",
+        "name": "Metformin 500mg",
+        "nameHi": "मेटफॉर्मिन 500mg",
+        "namePa": "ਮੈਟਫਾਰਮਿਨ 500mg",
+        "category": "Diabetes",
+        "manufacturer": "Lupin",
+        "batchNo": "MF24003",
+        "expiryDate": "2026-01-31",
+        "stock": 0,
+        "price": 45.00,
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": "PH002",
+    "name": "Bathinda Healthcare",
+    "nameHi": "बठिंडा हेल्थकेयर",
+    "namePa": "ਬਠਿੰਡਾ ਹੈਲਥਕੇਅਰ",
+    "address": "Civil Lines, Bathinda, Punjab",
+    "phone": "+91 9876543231",
+    "email": "bathinda.health@gmail.com",
+    "license": "PB-BTI-2020-002",
+    "owner": "Rajni Devi",
+    "medicines": [
+      {
+        "id": "M004",
+        "name": "Atorvastatin 20mg",
+        "nameHi": "एटोरवास्टेटिन 20mg",
+        "namePa": "ਅਟੋਰਵਾਸਟੈਟਿਨ 20mg",
+        "category": "Cardiac",
+        "manufacturer": "Ranbaxy",
+        "batchNo": "AT24004",
+        "expiryDate": "2025-10-31",
+        "stock": 200,
+        "price": 85.00,
+        "available": true
+      },
+      {
+        "id": "M005",
+        "name": "Salbutamol Inhaler",
+        "nameHi": "सैल्ब्युटामोल इन्हेलर",
+        "namePa": "ਸੈਲਬੁਟਾਮੋਲ ਇਨਹੇਲਰ",
+        "category": "Respiratory",
+        "manufacturer": "GSK",
+        "batchNo": "SB24005",
+        "expiryDate": "2025-06-30",
+        "stock": 50,
+        "price": 180.00,
+        "available": true
+      }
+    ]
+  }
+]

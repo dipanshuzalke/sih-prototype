@@ -1,0 +1,60 @@
+{
+  "overview": {
+    "totalPatients": 1250,
+    "totalDoctors": 45,
+    "totalPharmacies": 23,
+    "totalConsultations": 2850,
+    "todayConsultations": 15,
+    "activeUsers": 890,
+    "medicineAvailability": 78
+  },
+  "consultationStats": {
+    "daily": [
+      { "date": "2024-01-18", "consultations": 12 },
+      { "date": "2024-01-19", "consultations": 18 },
+      { "date": "2024-01-20", "consultations": 15 },
+      { "date": "2024-01-21", "consultations": 22 },
+      { "date": "2024-01-22", "consultations": 19 },
+      { "date": "2024-01-23", "consultations": 16 },
+      { "date": "2024-01-24", "consultations": 21 }
+    ],
+    "bySpecialty": [
+      { "specialty": "General Medicine", "count": 1200, "percentage": 42 },
+      { "specialty": "Cardiology", "count": 650, "percentage": 23 },
+      { "specialty": "Pediatrics", "count": 500, "percentage": 18 },
+      { "specialty": "Dermatology", "count": 300, "percentage": 10 },
+      { "specialty": "Others", "count": 200, "percentage": 7 }
+    ]
+  },
+  "patientDemographics": {
+    "ageGroups": [
+      { "group": "0-18", "count": 180, "percentage": 14 },
+      { "group": "19-35", "count": 425, "percentage": 34 },
+      { "group": "36-50", "count": 380, "percentage": 30 },
+      { "group": "51-65", "count": 200, "percentage": 16 },
+      { "group": "65+", "count": 65, "percentage": 5 }
+    ],
+    "gender": [
+      { "type": "Male", "count": 680, "percentage": 54 },
+      { "type": "Female", "count": 570, "percentage": 46 }
+    ],
+    "languages": [
+      { "language": "Punjabi", "count": 750, "percentage": 60 },
+      { "language": "Hindi", "count": 350, "percentage": 28 },
+      { "language": "English", "count": 150, "percentage": 12 }
+    ]
+  },
+  "medicineAvailability": [
+    { "category": "Pain Relief", "available": 85, "total": 100 },
+    { "category": "Antibiotics", "available": 70, "total": 100 },
+    { "category": "Diabetes", "available": 65, "total": 100 },
+    { "category": "Cardiac", "available": 80, "total": 100 },
+    { "category": "Respiratory", "available": 75, "total": 100 }
+  ],
+  "syncStatus": {
+    "synced": 890,
+    "pending": 125,
+    "failed": 35,
+    "total": 1050
+  }
+}

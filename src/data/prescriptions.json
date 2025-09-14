@@ -1,0 +1,62 @@
+[
+  {
+    "id": "RX001",
+    "patientId": "P001",
+    "doctorId": "D001",
+    "appointmentId": "A001",
+    "date": "2024-01-20",
+    "medicines": [
+      {
+        "name": "Paracetamol 500mg",
+        "nameHi": "पैरासिटामोल 500mg",
+        "namePa": "ਪੈਰਾਸੀਟਾਮੋਲ 500mg",
+        "dosage": "1 tablet",
+        "frequency": "3 times a day",
+        "duration": "5 days",
+        "instructions": "Take after meals",
+        "instructionsHi": "भोजन के बाद लें",
+        "instructionsPa": "ਖਾਣੇ ਤੋਂ ਬਾਅਦ ਲਓ"
+      },
+      {
+        "name": "Azithromycin 500mg",
+        "nameHi": "अजीथ्रोमाइसिन 500mg", 
+        "namePa": "ਅਜ਼ੀਥ੍ਰੋਮਾਈਸਿਨ 500mg",
+        "dosage": "1 tablet",
+        "frequency": "1 time a day",
+        "duration": "3 days",
+        "instructions": "Take on empty stomach",
+        "instructionsHi": "खाली पेट लें",
+        "instructionsPa": "ਖਾਲੀ ਪੇਟ ਲਓ"
+      }
+    ],
+    "status": "active",
+    "pharmacyId": "PH001",
+    "dispensed": false,
+    "notes": "Complete the full course of antibiotics"
+  },
+  {
+    "id": "RX002",
+    "patientId": "P002",
+    "doctorId": "D002",
+    "appointmentId": "A002",
+    "date": "2024-01-18",
+    "medicines": [
+      {
+        "name": "Atorvastatin 20mg",
+        "nameHi": "एटोरवास्टेटिन 20mg",
+        "namePa": "ਅਟੋਰਵਾਸਟੈਟਿਨ 20mg",
+        "dosage": "1 tablet",
+        "frequency": "1 time a day",
+        "duration": "30 days",
+        "instructions": "Take at bedtime",
+        "instructionsHi": "सोते समय लें",
+        "instructionsPa": "ਸੁੱਤੇ ਸਮੇਂ ਲਓ"
+      }
+    ],
+    "status": "dispensed",
+    "pharmacyId": "PH002",
+    "dispensed": true,
+    "dispensedDate": "2024-01-19",
+    "notes": "Monitor liver function"
+  }
+]

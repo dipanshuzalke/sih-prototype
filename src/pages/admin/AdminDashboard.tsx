@@ -165,7 +165,7 @@ const AdminDashboard: React.FC = () => {
                     paddingAngle={5}
                     dataKey="count"
                   >
-                    {analyticsData.consultationStats.bySpecialty.map((entry, index) => (
+                    {analyticsData.consultationStats.bySpecialty.map((_entry, index) => (
                       <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                     ))}
                   </Pie>
@@ -229,7 +229,7 @@ const AdminDashboard: React.FC = () => {
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
-                {analyticsData.patientDemographics.languages.map((lang, index) => (
+                {analyticsData.patientDemographics.languages.map((lang, _index) => (
                   <div key={lang.language} className="space-y-2">
                     <div className="flex items-center justify-between text-sm">
                       <span>{lang.language}</span>

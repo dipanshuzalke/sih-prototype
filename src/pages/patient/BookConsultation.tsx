@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
+// import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Badge } from '@/components/ui/badge';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Calendar, Clock, Star, Video, Phone, ArrowLeft, Check } from 'lucide-react';
+import { Calendar, Star, Video, Phone, ArrowLeft, Check } from 'lucide-react';
 import doctorsData from '@/data/doctors.json';
 import { toast } from 'sonner';
 

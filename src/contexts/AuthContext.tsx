@@ -76,7 +76,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
   }, []);
 
-  const login = async (phone: string, otp: string, role: UserRole): Promise<boolean> => {
+  const login = async (_phone: string, otp: string, role: UserRole): Promise<boolean> => {
     // Simulate OTP verification (accept any 4-digit OTP)
     if (otp.length === 4) {
       const userData = mockUsers[role];

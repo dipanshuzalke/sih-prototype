@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { useLanguage } from '@/contexts/LanguageContext';
+// import { useLanguage } from '@/contexts/LanguageContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { 
@@ -16,7 +16,7 @@ import {
 } from 'lucide-react';
 
 const Landing: React.FC = () => {
-  const { t } = useLanguage();
+  // const { t } = useLanguage();
   const { switchRole } = useAuth();
   const navigate = useNavigate();
 

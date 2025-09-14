@@ -14,8 +14,7 @@ import {
   ClipboardList,
   BarChart3,
   User,
-  Search,
-  Heart
+  Search
 } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
